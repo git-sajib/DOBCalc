@@ -28,7 +28,7 @@
         android:layout_marginTop="30dp"
         android:text="AGE"
         android:padding="10dp"
-        android:background="@color/purple_500"
+        android:background="@color/textBlue"
         android:textColor="@color/white"
         android:textSize="25sp"
         android:textStyle="bold"
@@ -48,7 +48,49 @@
         android:id="@+id/button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Button"
+        android:text="SELECT DATE"
+        android:textSize="18sp"
+        android:textColor="@color/lightGray"
         android:backgroundTint="@color/btnBgColor"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="01.02.2024"
+        android:textColor="@color/textBlue"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Selected Date"
+        android:textColor="@color/lightGray"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="14000000"
+        android:textColor="@color/textBlue"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="In Minutes till date"
+        android:textColor="@color/lightGray"
+        android:textSize="20sp"
+        android:textStyle="bold"
         />
 </LinearLayout>
